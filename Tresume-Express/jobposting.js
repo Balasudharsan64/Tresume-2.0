@@ -11,7 +11,6 @@ const environment = process.env.NODE_ENV || "prod";
 const envconfig = require(`./config.${environment}.js`);
 const apiUrl = envconfig.apiUrl;
 router.use(bodyparser.json());
-
 const config = {
   user: "sa",
   password: "Tresume@123",

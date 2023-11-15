@@ -15,4 +15,3 @@ export class JobApplicationService {
   // addharvest(request: any): Observable<ResponseDetails> {
   //   return this.http.post<ResponseDetails>(this.endpoint + 'addharvest', request);
 }
-
